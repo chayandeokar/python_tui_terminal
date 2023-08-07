@@ -1,0 +1,18 @@
+----> Add Power
+## chmod o+w /root/
+## chmod o+r /root/ 
+
+----> Remove power
+## chmod o-r /root/
+## chmod o-w /root/
+
+000  -- none
+001  -- execute only
+010  -- write only
+100  -- read only
+101  -- read and execute 
+110  -- read and write 
+111  -- read write exexcute
+
+
+## Give permission from chmod and chgrp
